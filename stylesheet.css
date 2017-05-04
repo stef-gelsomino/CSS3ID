@@ -1,0 +1,19 @@
+body {
+    background-color: darkorange;
+}
+
+h1, h2 {
+    background-color: indianred;
+}
+
+div {
+    background-color: goldenrod;
+}
+
+#content {
+    background-color: blue;    
+}
+
+.quotation {
+    background-color: aquamarine;
+}
