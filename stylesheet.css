@@ -2,6 +2,11 @@ body {
     background-color: darkorange;
 }
 
+#title {
+    font-size: 70px;
+    text-align: center;
+}
+
 h1, h2 {
     background-color: indianred;
 }
