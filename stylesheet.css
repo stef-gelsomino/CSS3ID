@@ -1,10 +1,5 @@
-* {
-    color: black;
-}
-
 body {
-    background-color: darkorange;
-    background-image: url("images/background.jpg")
+    background-image: url("images/background2.jpeg")
 }
 
 #title {
@@ -12,26 +7,6 @@ body {
     text-align: center;
 }
 
-p {
-    font-size: 1.5em;
-    border-style: solid;
-    border-color: black;
-    border-width: thin;
-    width: 200px;
-}
-
-h1, h2 {
-    background-color: indianred;
-}
-
-div {
-    background-color: goldenrod;
-}
-
-#content {
-    background-color: blue;    
-}
-
-.quotation {
-    background-color: aquamarine;
+* {
+    color: maroon;
 }
