@@ -1,0 +1,12 @@
+body {
+    background-image: url("images/background2.jpeg")
+}
+
+#title {
+    font-size: 70px;
+    text-align: center;
+}
+
+* {
+    color: maroon;
+}
