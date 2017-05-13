@@ -2,11 +2,33 @@ body {
     background-image: url("images/background2.jpeg")
 }
 
+#wholepage {
+    margin-right: 800px;
+}
+
 #title {
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
 }
 
+#menu {
+    position: fixed;
+    left: 1300px;
+    top: 144px;
+}
+
+#menu h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
 * {
-    color: maroon;
+    color: black;
+    background-color: white;
+}
+p, ul, ol {
+    font-size: 30px;
 }
