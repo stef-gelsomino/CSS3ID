@@ -3,7 +3,7 @@ body {
 }
 
 #wholepage {
-    margin-right: 800px;
+    margin-right: 600px;
 }
 
 #title {
@@ -13,7 +13,7 @@ body {
 
 #menu {
     position: fixed;
-    left: 1300px;
+    left: 1400px;
     top: 144px;
 }
 
@@ -32,3 +32,12 @@ h1 {
 p, ul, ol {
     font-size: 30px;
 }
+
+p {
+    background-color: blue;
+}
+
+
+
+
+
