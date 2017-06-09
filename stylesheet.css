@@ -123,4 +123,31 @@ p {
 
 } 
 
+#display li:nth-of-type(3) {
+    display: none;
+}
 
+#display li:nth-of-type(5) {
+    visibility: hidden;
+}
+
+#display2 li {
+    border: solid 3px black;
+    background-color: cadetblue;
+    padding: 10px;
+    display: inline;
+    width: 160px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#display3 li {
+    border: solid 3px black;
+    background-color: cadetblue;
+    padding: 10px;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    margin: 5px;
+}
