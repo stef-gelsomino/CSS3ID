@@ -1,9 +1,10 @@
 body {
-    background-image: url("images/background2.jpeg")
+    background-image: url("images/background2.jpeg") 
 }
 
 #wholepage {
     margin-right: 600px;
+    font-family: sans-serif;
 }
 
 #title {
@@ -136,7 +137,7 @@ p {
     background-color: cadetblue;
     padding: 10px;
     display: inline;
-    width: 160px;
+    width: 180px;
     height: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -147,7 +148,46 @@ p {
     background-color: cadetblue;
     padding: 10px;
     display: inline-block;
-    width: 160px;
+    width: 180px;
     height: 40px;
     margin: 5px;
+}
+
+#stex {
+    margin-right: 400px;
+}
+
+#stex h1, #stex p, #stex li, #stex pre, #stex ul, #stex ol, #stex footer, #stex {
+    background-color: brown;
+}
+
+#stex footer {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.0em;
+    text-align: right;
+}
+
+#stex pre {
+    font-family: monospace;
+    font-size: 1.4em;
+}
+
+#stex ol, #stex ul {
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+#stex h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#stex p {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2em;
 }

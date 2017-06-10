@@ -28,7 +28,7 @@
             <li><a href="#specificity">Specificity</a></li>
             <li><a href="#bmp">Border, Margin And Padding</a></li>
             <li><a href="#dav">Display And Visibility</a></li>
-            <li><a href=""></a></li>
+            <li><a href="#st">Styling Text</a></li>
             <li><a href=""></a></li>
             <li><a href="#title">Back to top</a></li>
         </ol>
@@ -127,7 +127,7 @@ E' possibile importare un foglio di stile in un altro utilizzando "@import url("
     
 </ul>
     
-<p>Nell´esempio di sotto abbiamo un "ul" costituita da dieci elementi ed ogni elemento è impostato su "display: inline;". Il risultato è che gli elementi non saranno più uno sopra l´altro come nel caso di "display: block;", che è l´impostazione di default del browser. Il problema è che, così facendo, non vengono più rispettate la "width", la "height" ed i margini dei singoli "blocchi" (in questo caso pari rispettivamente a "160 px", "40 px" ed a "5 px").</p>    
+<p>Nell´esempio di sotto abbiamo un "ul" costituita da dieci elementi ed ogni elemento è impostato su "display: inline;". Il risultato è che gli elementi non saranno più uno sopra l´altro come nel caso di "display: block;", che è l´impostazione di default del browser. Il problema è che, così facendo, non vengono più rispettate la "width", la "height" ed i margini dei singoli "blocchi" (in questo caso pari rispettivamente a "180 px", "40 px" ed a "5 px").</p>    
     
 <ul id="display2">
 
@@ -160,6 +160,41 @@ E' possibile importare un foglio di stile in un altro utilizzando "@import url("
     <li>Elemento 10</li>
     
 </ul>
+    
+<h1 id="st">Styling Text</h1>   
+    
+<img src="images/text1.jpg">
+<img src="images/text2.jpg">
+<img src="images/text3.jpg">
+<img src="images/text4.jpg">
+    
+<p>Qui sotto un esempio di styling di un testo. Si veda il file "stylesheet.css" per ulteriori chiarimenti.</p>
+    
+<div id="stex">
+    
+    <h1>CSS Hover Selector</h1>
+    <p>The :hover selector belongs to pseudo-classes. A pseudo-class is used to define a special state of an element.
+        For example, it can be used to:</p>
+    <ol>
+        <li>Style an element when a user mouses over it</li>
+        <li>Style visited and unvisited links differently</li>
+        <li>Style an element when it gets focus</li>
+    </ol>
+    <p>The :hover selector is used to select elements when you mouse over them. Here is an example:</p>
+    <pre>
+    a:hover { 
+    background-color: yellow;
+    }
+    </pre>
+    <p>In the example above the background-color of the anchor tag becomes yellow when you mouse over it.</p>
+    <p>Tips:</p>
+    <ul>
+        <li>The :hover selector can be used on all elements, not only on links</li>
+        <li>Use the :link selector to style links to unvisited pages, the :visited selector to style links to visited pages, and the :active selector to style the active link</li>
+        <li>:hover MUST come after :link and :visited (if they are present) in the CSS definition, in order to be effective</li>
+    </ul>
+    <footer>W3Schools</footer>
+</div>
     
 <h1>Heading 1</h1>   
     
