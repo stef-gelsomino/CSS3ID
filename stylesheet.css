@@ -191,3 +191,70 @@ p {
     font-family: "Arial", sans-serif;
     font-size: 1.2em;
 }
+
+/* Example of FLOAT and CLEAR */
+
+#flocx {
+    background-color: aqua;
+    width: 600px;
+    float: left;
+    margin-right: 30px;
+}
+
+#flocx p {
+    text-align: justify;
+    background-color: aqua;
+    margin: 5px;
+}
+
+#flocx2 {
+    background-color: bisque;
+}
+
+#flocx2 p {
+    text-align: justify;
+    background-color: bisque;
+    margin: 5px;
+}
+
+#flocx3 {
+    background-color: brown;
+}
+
+#flocx3 p {
+    background-color: brown;
+}
+
+#flocr {
+    background-color: aqua;
+    width: 600px;
+    float: left;
+    margin-right: 30px;
+}
+
+#flocr p {
+    text-align: justify;
+    background-color: aqua;
+    margin: 5px;
+}
+
+#flocr2 {
+    background-color: bisque;
+}
+
+#flocr2 p {
+    text-align: justify;
+    background-color: bisque;
+    margin: 5px;
+}
+
+#flocr3 {
+    clear: left;
+    background-color: brown;
+}
+
+#flocr3 p {
+    background-color: brown;
+}
+
+/* End of example */
