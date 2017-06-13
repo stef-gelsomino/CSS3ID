@@ -1,0 +1,52 @@
+* {
+    text-align: justify;
+    font-family: "Arial", sans-serif;
+    background-color: antiquewhite;
+}
+
+pre i {
+    font-family: "Times New Roman", serif;
+}
+
+#img1 {
+    float: right;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#img1 img {
+    margin-left: 18px;
+} 
+
+#img2 {
+    float: left;
+    margin-right: 25px;
+}
+
+#img2 img {
+    margin-left: 28px;
+} 
+
+#authorinfo {
+    clear: both;
+}
+
+#img3 {
+    float: right;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#img3 img {
+    margin-left: 18px;
+    width: 116px;
+    height: 166px;
+}
+
+#footer {
+    clear: both;
+}
+
+#footer div h3 {
+    text-align: right;
+}

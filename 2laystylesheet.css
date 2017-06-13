@@ -1,0 +1,89 @@
+* {
+    text-align: justify;
+    font-family: "Arial", sans-serif;
+    background-color: antiquewhite;
+}
+
+body>h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: darkgoldenrod;
+}
+
+pre i {
+    font-family: "Times New Roman", serif;
+}
+
+#img1 {
+    float: right;
+    margin-left: 25px;
+    margin-top: 18px;
+}
+
+#img1 img {
+    margin-left: 18px;
+} 
+
+#img2 {
+    float: left;
+    margin-right: 25px;
+}
+
+#img2 img {
+    margin-left: 28px;
+    margin-top: 4px;
+} 
+
+#img3 {
+    float: right;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#img3 img {
+    margin-left: 18px;
+    width: 116px;
+    height: 166px;
+}
+
+footer {
+    position: absolute;
+    top: 1275px;
+    left: 18px;
+    width: 1300px;
+}
+
+footer div h3 {
+    text-align: right;
+    background-color: antiquewhite !important; 
+}
+
+#authorinfo {
+    margin-left: 1340px;
+    margin-right: 18px;
+}
+
+#content {
+    position: absolute;
+    top: 135px;
+    left: 18px;
+    width: 1300px;
+}
+
+h2 {
+    background-color: darkgoldenrod;
+    width: 1051px;
+}
+
+#content h3:first-of-type {
+    background-color: darkgoldenrod;
+}
+
+#content h3:last-of-type {
+    background-color: darkgoldenrod;
+    margin-left: 237px;
+}
+
+#authorinfo h1 {
+    background-color: darkgoldenrod;
+}
