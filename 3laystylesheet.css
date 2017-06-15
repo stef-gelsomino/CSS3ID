@@ -4,6 +4,17 @@
     background-color: antiquewhite;
 }
 
+body>h1 {
+    margin-top: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 4px;
+    text-align: center;
+    font-size: 40px;
+    color: darkred;
+    background-color: darkgoldenrod;
+}
+
 pre i {
     font-family: "Times New Roman", serif;
 }
@@ -11,11 +22,11 @@ pre i {
 #img1 {
     float: right;
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
 #img1 img {
-    margin-left: 18px;
+    margin-left: 7px;
 } 
 
 #img2 {
@@ -25,16 +36,12 @@ pre i {
 
 #img2 img {
     margin-left: 28px;
+    margin-top: 4px;
 } 
 
-#authorinfo {
-    clear: both;
-}
-
 #img3 {
-    float: right;
-    margin-left: 25px;
-    margin-top: 50px;
+    margin-left: 2px;
+    margin-top: 22px;
 }
 
 #img3 img {
@@ -43,10 +50,66 @@ pre i {
     height: 166px;
 }
 
-#footer {
-    clear: both;
+footer {
+    margin-left: 256px;
+    margin-right: 256px;
 }
 
-#footer div h3 {
+footer div h3 {
     text-align: right;
+    background-color: antiquewhite !important; 
+}
+
+#authorinfo {
+    position: absolute;
+    width: 230px;
+    top: 138px;
+    right: 18px; 
+}
+
+#authorinfo h1 {
+    padding: 4px;
+    text-align: center;
+    font-size: 30px;
+    background-color: darkgoldenrod;
+}
+
+#authorinfo p {
+    margin-top: -12px;
+}
+
+#content {
+   margin-top: 69px;
+   margin-left: 256px;
+   margin-right: 256px;
+}
+
+h2 {
+    background-color: darkgoldenrod;
+    margin-right: 246px;
+    padding: 2px;
+}
+
+#content h3:first-of-type {
+    background-color: darkgoldenrod;
+    padding: 2px;
+}
+
+#content h3:last-of-type {
+    background-color: darkgoldenrod;
+    margin-left: 237px; 
+    padding: 2px;
+}
+
+#ausgaben {
+    position: absolute;
+    width: 230px;
+    top: 138px;
+    left: 18px;
+}
+
+h4 {
+    background-color: darkgoldenrod;
+    padding: 2px;
+    margin-bottom: -2px;
 }
