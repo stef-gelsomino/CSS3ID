@@ -5,8 +5,13 @@
 }
 
 body>h1 {
+    margin-top: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 4px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
+    color: darkred;
     background-color: darkgoldenrod;
 }
 
@@ -21,7 +26,7 @@ pre i {
 }
 
 #img1 img {
-    margin-left: 18px;
+    margin-left: 7px;
 } 
 
 #img2 {
@@ -35,9 +40,8 @@ pre i {
 } 
 
 #img3 {
-    float: right;
-    margin-left: 25px;
-    margin-top: 50px;
+    margin-left: 2px;
+    margin-top: 22px;
 }
 
 #img3 img {
@@ -48,7 +52,7 @@ pre i {
 
 footer {
     position: absolute;
-    top: 1275px;
+    top: 1290px;
     left: 18px;
     width: 1300px;
 }
@@ -61,11 +65,24 @@ footer div h3 {
 #authorinfo {
     margin-left: 1340px;
     margin-right: 18px;
+    margin-top: 60px; 
+}
+
+#authorinfo h1 {
+    padding: 4px;
+    margin-right: -8px;
+    text-align: center;
+    font-size: 30px;
+    background-color: darkgoldenrod;
+}
+
+#authorinfo p {
+    margin-top: -12px;
 }
 
 #content {
     position: absolute;
-    top: 135px;
+    top: 138px;
     left: 18px;
     width: 1300px;
 }
@@ -73,17 +90,16 @@ footer div h3 {
 h2 {
     background-color: darkgoldenrod;
     width: 1051px;
+    padding: 2px;
 }
 
 #content h3:first-of-type {
     background-color: darkgoldenrod;
+    padding: 2px;
 }
 
 #content h3:last-of-type {
     background-color: darkgoldenrod;
     margin-left: 237px;
-}
-
-#authorinfo h1 {
-    background-color: darkgoldenrod;
+    padding: 2px;
 }
